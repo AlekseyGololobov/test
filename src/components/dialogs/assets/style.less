@@ -1,0 +1,21 @@
+@import url('../../../assets/fonts/TTCommons/style.less');
+
+.dialog_main {
+    width: 100vw;
+    background-color: #141B1F;
+    min-height: 100vh;
+    position: absolute;
+    & .dialog_blur {
+        min-width: 40rem;
+        min-height: 40rem;
+        max-width: 40vw;
+        max-height: 80vh;
+        background: #141B1F;
+        opacity: 0.9;
+        filter: blur(99px);
+        border-radius: 6px;
+        position: absolute;
+        opacity: 0.8;
+        border-radius: 50%;        
+    }
+}
