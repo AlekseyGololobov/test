@@ -1,0 +1,113 @@
+p,h3{
+    padding: 0;
+    margin: 0;
+}
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+textarea{
+    outline: none;
+    resize: none;
+}
+
+.Exam{ 
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(26, 30, 55, 0.7), rgba(26, 30, 55, 0.7)), radial-gradient(70.74% 70.74% at 50% 50%, rgba(20, 27, 31, 0.46) 43.75%, #141B1F 100%);
+} 
+.Exam_svg{
+    align-items: center;
+     display: flex;
+    justify-content:center; 
+    height: 100vh;
+    background-image:url(./bg.svg);
+}
+
+ .Exam_prepod{
+   height: 100vh;
+} 
+
+.gg{
+  z-index: 1;
+  width: 30vw;
+} 
+
+.Container_title{
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
+    font-size: 2.5vh;
+}
+
+.Categories_test{
+    display: flex;
+    flex-direction: column;
+    
+} 
+
+.Btn_ticet{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Categories_name{
+    color: white;
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
+    font-size:2.5vh;
+}
+
+.Container_description{
+    color: #000000;
+    opacity: 0.6;
+    font-size: 2vh;
+    margin-top: 1vh;
+    height: 15vh;
+    border-radius:1vh;
+}
+
+
+
+.Categories_btn{
+    display: flex;
+    margin-top:2vh;
+    border-radius: 5px;
+    color: white;
+    font-size: 2vh;
+    background: rgba(255, 255, 255, 0.07);
+    border: 3px solid rgba(255, 255, 255, 0.08);
+}
+
+.Categories_pad{
+    padding: 1vh 0 1vh 2vh ;
+    
+}
+
+.Categories_btn:hover{
+    background: rgba(255, 255, 255, 0.2);
+    border: 3px solid rgba(255, 255, 255, 0.08);
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
+    outline: none;
+}
+
+.Categories_btnanswer{
+    margin-top: 3vh;
+    height: 7vh;
+    width: 13vw;
+    background: rgba(240,77,38, 0.4);
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    font-size: 2vh;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 3px solid rgba(255, 255, 255, 0.08);
+}
+
+.Categories_btnanswer:hover{
+    background: rgba(240,77,38, 1);
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
+
+}
